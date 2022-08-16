@@ -22,12 +22,11 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "tb_avaliacoes")
 public class AvaliacaoFisica {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne
 	@JoinColumn(name = "aluno_id")
 	private Aluno aluno;
 

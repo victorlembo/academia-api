@@ -22,14 +22,14 @@ public class AvaliacaoFisicaController {
 	@Autowired
 	private AvaliacaoFisicaServiceImpl service;
 
-	@GetMapping
-	public List<AvaliacaoFisica> getAll() {
-		return service.getAll();
-	}
-
 	@PostMapping
 	public AvaliacaoFisica create(@RequestBody AvaliacaoFisicaForm form) {
 		return service.create(form);
+	}
+
+	@GetMapping
+	public List<AvaliacaoFisica> getAll() {
+		return service.getAll();
 	}
 
 }
