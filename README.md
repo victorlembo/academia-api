@@ -4,7 +4,7 @@
 <h2>🎯 Objetivo do Projeto</h2>
 <p>Ao final deste projeto, o Dev irá conhecer os principais conceitos de mapeamento objeto relacional (ORM) usando o <strong>Spring Data JPA</strong>. Para isso, uma <strong>API RESTful</strong> será desenvolvida com ênfase na modelagem de suas entidades, no domínio de uma academia de ginástica.</p>
 
-<a href=”https://academia-api-vl.herokuapp.com/swagger-ui/index.html”>Open API</a>
+<a href="https://academia-api-vl.herokuapp.com/swagger-ui/index.html">Open API</a>
 
 
 
